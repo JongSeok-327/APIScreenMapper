@@ -1,8 +1,8 @@
 # API Screen Mapper
 
-A tool for mapping and managing API points on screen images.
+[![en](https://img.shields.io/badge/lang-English-blue.svg)](README.md) [![ko](https://img.shields.io/badge/lang-한국어-red.svg)](README.ko.md)
 
-English | [한국어](README.ko.md)
+A tool for mapping and managing API points on screen images.
 
 ## Key Features
 

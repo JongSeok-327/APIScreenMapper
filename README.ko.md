@@ -1,8 +1,8 @@
 # API Screen Mapper
 
-화면 이미지에 API 포인트를 매핑하고 관리하는 도구입니다.
+[![en](https://img.shields.io/badge/lang-English-blue.svg)](README.md) [![ko](https://img.shields.io/badge/lang-한국어-red.svg)](README.ko.md)
 
-[English](README.md) | 한국어
+화면 이미지에 API 포인트를 매핑하고 관리하는 도구입니다.
 
 ## 주요 기능
 
