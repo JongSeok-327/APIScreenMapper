@@ -1,60 +1,62 @@
 # API Screen Mapper
 
-화면 이미지에 API 포인트를 매핑하고 관리하는 도구입니다.
+A tool for mapping and managing API points on screen images.
 
-## 주요 기능
+English | [한국어](README.ko.md)
 
-- 프로젝트별 화면 관리
-- 화면 이미지에 API 포인트 매핑
-- Query와 Mutation 구분
-- API 코드와 설명 관리
-- 화면과 API 목록 내보내기 (이미지, 마크다운)
-- 드래그 앤 드롭으로 API 포인트 위치 조정
-- API 목록 순서 변경
+## Key Features
 
-## 시작하기
+- Project-based screen management
+- API point mapping on screen images
+- Query and Mutation distinction
+- API code and description management
+- Export screens and API lists (image, markdown)
+- Drag and drop API point positioning
+- API list reordering
 
-### 필수 조건
+## Getting Started
 
-- Node.js 16.0.0 이상
-- npm 또는 yarn
+### Prerequisites
 
-### 설치
+- Node.js 16.0.0 or higher
+- npm or yarn
+
+### Installation
 
 ```bash
-# 저장소 클론
-git clone [repository-url]
+# Clone repository
+git clone https://github.com/JongSeok-327/APIScreenMapper.git
 cd graphql-screen-mapper
 
-# 의존성 설치
+# Install dependencies
 npm install
-# 또는
+# or
 yarn install
 
-# 개발 서버 실행
+# Run development server
 npm start
-# 또는
+# or
 yarn start
 ```
 
-### 빌드
+### Build
 
 ```bash
 npm run build
-# 또는
+# or
 yarn build
 ```
 
-## 사용 방법
+## How to Use
 
-1. 프로젝트 생성
-2. 화면 이미지 업로드
-3. 화면을 클릭하여 API 포인트 추가
-4. API 정보 입력 (이름, 타입, 코드, 설명)
-5. API 포인트 드래그하여 위치 조정
-6. 내보내기 기능으로 문서화
+1. Create a project
+2. Upload screen images
+3. Click on the screen to add API points
+4. Enter API information (name, type, code, description)
+5. Drag API points to adjust positions
+6. Export for documentation
 
-## 기술 스택
+## Tech Stack
 
 - React
 - TypeScript
