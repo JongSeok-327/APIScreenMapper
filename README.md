@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# API Screen Mapper
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+화면 이미지에 API 포인트를 매핑하고 관리하는 도구입니다.
 
-## Available Scripts
+## 주요 기능
 
-In the project directory, you can run:
+- 프로젝트별 화면 관리
+- 화면 이미지에 API 포인트 매핑
+- Query와 Mutation 구분
+- API 코드와 설명 관리
+- 화면과 API 목록 내보내기 (이미지, 마크다운)
+- 드래그 앤 드롭으로 API 포인트 위치 조정
+- API 목록 순서 변경
 
-### `npm start`
+## 시작하기
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 필수 조건
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js 16.0.0 이상
+- npm 또는 yarn
 
-### `npm test`
+### 설치
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# 저장소 클론
+git clone [repository-url]
+cd graphql-screen-mapper
 
-### `npm run build`
+# 의존성 설치
+npm install
+# 또는
+yarn install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 개발 서버 실행
+npm start
+# 또는
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 빌드
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build
+# 또는
+yarn build
+```
 
-### `npm run eject`
+## 사용 방법
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. 프로젝트 생성
+2. 화면 이미지 업로드
+3. 화면을 클릭하여 API 포인트 추가
+4. API 정보 입력 (이름, 타입, 코드, 설명)
+5. API 포인트 드래그하여 위치 조정
+6. 내보내기 기능으로 문서화
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 기술 스택
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React
+- TypeScript
+- Material-UI
+- Dexie (IndexedDB)
+- Monaco Editor
